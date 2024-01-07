@@ -2,7 +2,6 @@
   position: absolute;
   right: 32px;
   display: flex;
-  /* justify-content: end; */
   align-items: flex-start;
   align-content: flex-start;
   gap: 20px;
