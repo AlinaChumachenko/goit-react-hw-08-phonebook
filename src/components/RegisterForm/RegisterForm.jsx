@@ -26,7 +26,7 @@ export const RegisterForm = () => {
             className={css.input}
             type="text"
             name="name"
-            pattern="^[a-zA-Zа-яА-Я]+(([' -][a-zA-Zа-яА-Я ])?[a-zA-Zа-яА-Я]*)*$"
+            // pattern="^[a-zA-Zа-яА-Я]+(([' -][a-zA-Zа-яА-Я ])?[a-zA-Zа-яА-Я]*)*$"
             placeholder="Enter name ..."
             required
           />
@@ -37,7 +37,7 @@ export const RegisterForm = () => {
             className={css.input}
             type="email"
             name="email"
-            pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/."
+            // pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/."
             placeholder="Enter email ..."
             required
           />
