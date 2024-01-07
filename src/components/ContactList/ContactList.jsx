@@ -1,19 +1,19 @@
 import { useSelector } from 'react-redux';
-import ContactItem from '../ContactItem/ContactItem.jsx';
+import ContactItem from '../ContactItem/ContactItem';
 import css from './ContactList.module.css';
-import { selectVisibleContacts } from '../../redux/selectors.js';
+import { selectVisibleContacts } from '../../redux/contacts/selectors';
 
 const ContactList = () => {
-  const listOfContact = useSelector(selectVisibleContacts);
+  const contacts = useSelector(selectVisibleContacts);
 
-  return listOfContact.length > 0 ? (
+  return contacts.length > 0 ? (
     <ul className={css.list}>
-      {listOfContact.map(({ name, id, number }) => (
-        <ContactItem key={id} name={name} id={id} number={number} />
+      {contacts.map(({ name, id, number }) => (
+        <ContactItem key={id} name={name} id={id} phone={number} />
       ))}
     </ul>
   ) : (
-    <p>No contact exists</p>
+    <p>This contact does not exist</p>
   );
 };
 

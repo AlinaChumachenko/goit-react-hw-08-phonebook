@@ -1,0 +1,30 @@
+.title {
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  color: #a868a2;
+}
+
+.text {
+  font-size: 30px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.title,
+.text {
+  opacity: 0; /* начальное значение непрозрачности */
+  animation: fadeIn ease-in 1; /* добавляем анимацию fadeIn */
+  animation-fill-mode: forwards; /* будет видимым после завершения анимации */
+  animation-duration: 2s; /* длительность анимации в 1 секунду */
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

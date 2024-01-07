@@ -1,0 +1,32 @@
+.list {
+  position: absolute;
+  right: 32px;
+  display: flex;
+  justify-content: end;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 20px;
+}
+
+.link {
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: 700;
+  margin-right: 20px;
+  color: #55749e;
+  text-align: center;
+  text-transform: uppercase;
+  transition: all 0.5s ease-out;
+}
+
+.active {
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: 700;
+  margin-right: 20px;
+  color: #55749e;
+  text-align: center;
+  text-transform: uppercase;
+  transition: all 0.5s ease-out;
+  text-decoration: underline;
+}
