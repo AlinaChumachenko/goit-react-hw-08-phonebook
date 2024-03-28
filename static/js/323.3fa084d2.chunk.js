@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgoit_react_hw_08_phonebook=self.webpackChunkgoit_react_hw_08_phonebook||[]).push([[323],{8323:function(e,t,n){n.r(t),n.d(t,{Profile:function(){return c}});var r=n(1920),a={text:"Profile_text__qPCHC"},s=n(184),c=function(){var e=r.a.user;return(0,s.jsxs)("div",{className:a.container,children:[(0,s.jsx)("p",{className:a.text,children:e.name}),(0,s.jsx)("p",{className:a.text,children:e.email})]})}}}]);
+//# sourceMappingURL=323.3fa084d2.chunk.js.map

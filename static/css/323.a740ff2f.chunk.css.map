@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/323.a740ff2f.chunk.css","mappings":"AAAA,qBAGE,aAAc,CAFd,cAAe,CACf,eAAgB,CAEhB,iBACF","sources":["pages/ProfilePage/Profile.module.css"],"sourcesContent":[".text {\n  font-size: 15px;\n  font-weight: 700;\n  color: #55749e;\n  text-align: center;\n}\n"],"names":[],"sourceRoot":""}
